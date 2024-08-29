@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electronics 2 - Shopwise - Electronic</title>
+    <!-- css links -->
+    <link rel="shortcut icon" href="img/4985314.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- start header  -->
+
+    <header class="header_1">
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">
+          English <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">English</a>
+          <a href="#">France</a>
+          <a href="#">United States</a>
+        </div>
+        <button onclick="myFun()" class="dropbtn2">
+          USD <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <div id="myDropdown2" class="dropdown-content2">
+          <a href="#">USD</a>
+          <a href="#">EUR</a>
+          <a href="#">GBR</a>
+        </div>
+      </div>
+      <div class="right_header">
+        <div class="r1">
+          <i class="fa-regular fa-heart"></i>
+          <span><a href="#">Wishlist</a></span>
+        </div>
+        <div class="r2">
+          <i class="fa-regular fa-user"></i>
+          <span><a href="#">Sign in</a></span>
+        </div>
+        <div class="r3">
+          <i class="fa-solid fa-lock"></i>
+          <span><a href="#">Sign up</a></span>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- start navbar -->
+    <nav>
+      <div class="nav-left">
+        <img src="img/logo_dark-4.png" alt="logo" class="nav_img" />
+      </div>
+      <div class="nav-center">
+        <select name="All Category" class="nav-select">
+          <option value="All Category" class="ac">All Category</option>
+          <option value="Best Seller">Best Seller</option>
+          <option value="Camera">Camera</option>
+          <option value="Computer">Computer</option>
+          <option value="Featured">Featured</option>
+          <option value="HeadPhones">HeadPhones</option>
+          <option value="Mobile & Tablet">Mobile & Tablet</option>
+          <option value="New Arrival">New Arrival</option>
+          <option value="Special Offer">Special Offer</option>
+        </select>
+        <input type="text" placeholder="Search" class="inp" />
+        <button class="search">Search</button>
+      </div>
+      <div class="nav-right">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p>0</p>
+      </div>
+    </nav>
+    <hr style="color: #1e1d1d6d" />
+    <!-- end navbar -->
+    <!-- start nav-section  -->
+    <section class="nav-section">
+      <div class="dropdown">
+        <button onclick="myFunction3()" class="dropbtn3">
+          ALL CATEGORIES <i class="fa-solid fa-grip-lines"></i>
+        </button>
+        <div id="myDropdown3" class="dropdown-content3">
+          <a href="#">
+            <i class="fa-solid fa-computer"></i> Computer
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-mobile"></i> Mobile & Tablet
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
+          <a href="#"> <i class="fa-solid fa-camera"></i> Camera</a>
+          <a href="#"> <i class="fa-solid fa-plug"></i> Accessories</a>
+          <a href="#"> <i class="fa-solid fa-headphones"></i> Headphones</a>
+          <a href="#"> <i class="fa-solid fa-gamepad"></i> Gaming</a>
+          <a href="#"> <i class="fa-regular fa-clock"></i> Watches</a>
+          <a href="#">
+            <i class="fa-solid fa-microphone"></i> Home Audio & Theater</a
+          >
+          <a href="#"><i class="fa-solid fa-tv"></i> TV & Smart Box</a>
+          <a href="#"><i class="fa-solid fa-print"></i> Printer</a>
+        </div>
+      </div>
+      <div class="nav-center">
+        <div class="dropdown10">
+          <button onclick="myFunction10()" class="dropbtn10">
+            HOME <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div id="myDropdown10" class="dropdown-content10">
+            <a href="#">Fashion 1</a>
+            <a href="#">Fashion 2</a>
+            <a href="#">Furniture 1</a>
+            <a href="#">Furniture 2</a>
+            <a href="#">Electronics 1</a>
+            <a href="#">Electronics 2</a>
+          </div>
+          <button onclick="myFun11()" class="dropbtn11">
+            PAGES <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div id="myDropdown11" class="dropdown-content11">
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Faq</a>
+            <a href="#">Terms And Conditions</a>
+            <a href="#">404 Error Page</a>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+          </div>
+          <button onclick="myFunction12()" class="dropbtn12">
+            PRODUCTS <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div id="myDropdown12" class="dropdown-content12">
+            <div class="d_div1">
+              <div class="d1">
+                <a href="#" class="com-a">COMPUTER </a>
+                <a href="#">Classical Headphone</a>
+                <a href="#">Samsung Smart Phone</a>
+                <a href="#">Blue Dress For Woman</a>
+                <a href="#">Smart Watch External</a>
+                <a href="#">Oppo Reno3 Pro</a>
+              </div>
+              <div class="d1 d2">
+                <a href="#" class="com-a">MOBILE & TABLET </a>
+                <a href="#">Audio Equipment</a>
+                <a href="#">Surveillance Camera</a>
+                <a href="#">Sound Equipment</a>
+                <a href="#"> Oppo Reno3 Pro</a>
+                <a href="#">Basics High-Speed</a>
+              </div>
+              <div class="d1 d2">
+                <a href="#" class="com-a">CAMERA </a>
+                <a href="#">Audio Theaters</a>
+                <a href="#">Classical Headphone</a>
+                <a href="#">Samsung Smart Phone</a>
+                <a href="#">Blue Dress For Woman</a>
+                <a href="#"> Surveillance Camera </a>
+              </div>
+              <div class="d1 d2">
+                <a href="#" class="com-a">CAMERA </a>
+                <a href="#">Audio Theaters</a>
+                <a href="#">Classical Headphone</a>
+                <a href="#">Samsung Smart Phone</a>
+                <a href="#">Blue Dress For Woman</a>
+                <a href="#"> Surveillance Camera </a>
+              </div>
+            </div>
+            <div class="d_div2">
+              <div>
+                <img src="img/menu_banner7.jpg" alt="" />
+                <h3 class="d_h1">10% Off New Arrival</h3>
+                <a href="#" class="d_b1">Shop Now </a>
+              </div>
+              <div>
+                <img src="img/menu_banner8.webp" alt="" />
+                <h3 class="d_h1 dh2">15% Off Computers</h3>
+                <a href="#" class="d_b1 dh1">Shop Now </a>
+              </div>
+              <div>
+                <img src="img/menu_banner111.jpg" alt="" />
+                <h3 class="d_h1 dh2-2">10% Off New Arrival</h3>
+                <a href="#" class="d_b1 dh1-2">Shop Now </a>
+              </div>
+            </div>
+          </div>
+          <button onclick="myFun13()" class="dropbtn13">
+            SHOP <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div id="myDropdown13" class="dropdown-content13">
+            <div class="d_div1 d31">
+              <div class="d1">
+                <a href="#" class="com-a">SHOP PAGE LAYOUT</a>
+                <a href="#">Grid Left Sidebar</a>
+                <a href="#">Grid Right Sidebar</a>
+                <a href="#">List View</a>
+                <a href="#">List Left Sidebar</a>
+                <a href="#"> List Right Sidebar </a>
+              </div>
+              <div class="d1 d2">
+                <a href="#" class="com-a">OTHER PAGES</a>
+                <a href="#">Cart</a>
+                <a href="#">Checkout</a>
+                <a href="#">My Account</a>
+                <a href="#">Wishlist</a>
+              </div>
+              <div class="d1 d2">
+                <a href="#" class="com-a">CAMERA </a>
+                <a href="#">PRODUCT DETAIL</a>
+                <a href="#">Default Product</a>
+                <a href="#">Variable Product </a>
+                <a href="#">Affiliate Product</a>
+                <a href="#">Grouped Product </a>
+              </div>
+              <div class="d1 d2v">
+                <img src="img/shop_banner3.webp" alt="" />
+                <h3 class="d_h1 ddhh">New Arrival 10% OFF</h3>
+                <button class="dhdh">SHOP Now</button>
+              </div>
+            </div>
+          </div>
+          <button onclick="myFunction14()" class="dropbtn14">BLOG</button>
+          <button onclick="myFun15()" class="dropbtn15">CONTACT US</button>
+        </div>
+      </div>
+      <div>
+        <i class="fa-solid fa-phone-volume"></i>
+        <h4 class="hh4">123-456-7689</h4>
+      </div>
+    </section>
+    <!-- end nav-section  -->
+    <!-- start slides-section  -->
+    <section>
+      <div class="content section display-container">
+        <div class="mySlides">
+          <img src="img/banner16.webp" style="width: 100%" />
+          <h1 class="led">LED 75 INCH F58</h1>
+          <p class="led-p">Get up to 50% off Today Only!</p>
+          <button class="ledbtn">SHOP NOW</button>
+        </div>
+        <div class="mySlides">
+          <img src="img/banner17.webp" style="width: 100%" />
+          <h1 class="led animate__fadeInLeft">Smart Phones</h1>
+          <p class="led-p">50% off in all products</p>
+          <button class="ledbtn">SHOP NOW</button>
+        </div>
+        <div class="mySlides">
+          <img src="img/banner18.webp" style="width: 100%" />
+          <h1 class="led">Beat Headphone</h1>
+          <p class="led-p">Taking your Viewing Experience to Next Level</p>
+          <button class="ledbtn">SHOP NOW</button>
+        </div>
+        <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+    </section>
+    <!-- end slides-section  -->
+    <!-- start images-section  -->
+    <section class="imges_img">
+      <a href=""><img src="img/shop_banner_img7.webp" alt="" /></a>
+      <a href=""><img src="img/shop_banner_img8.webp" alt="" /></a>
+      <a href=""><img src="img/shop_banner_img9.webp" alt="" /></a>
+    </section>
+    <!-- end images-section  -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
